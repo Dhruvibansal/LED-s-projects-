@@ -11,6 +11,7 @@ void setup()
   }
   
   for(int i = 0; i<4; i++)
+    
   {
     pinMode(layer[i], OUTPUT);  //setting layers to output
   }
@@ -119,6 +120,7 @@ void turnOnAndOffAllByLayerUpAndDownNotTimed()
   }
 }
 //turn everything on and off by column sideways
+
 void turnOnAndOffAllByColumnSideways()
 {
   int x = 75;
