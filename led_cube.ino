@@ -3,6 +3,7 @@ int layer[4]={A3,A2,A1,A0}; //initializing and declaring led layers
   int time = 250;
  
 void setup()
+  
 {
   
   for(int i = 0; i<16; i++)   
